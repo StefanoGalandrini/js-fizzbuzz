@@ -7,7 +7,7 @@
 }
 
 :root {
-	background-color: #444444;
+	background-color: #2d2f3a;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -31,13 +31,35 @@ main {
 	flex-wrap: wrap;
 }
 
-#container {
+.all {
 	width: 6rem;
 	height: 6rem;
-	background-color: violet;
-	color: black;
-	border: 1px solid black;
+	border: 1px solid white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.normal {
+	background-color: rgb(109, 108, 100);
+	color: black;
+}
+
+.fizz {
+	background-color: rgb(24, 65, 24);
+	color: white;
+	border-radius: 20px;
+}
+
+.buzz {
+	background-color: rgb(90, 60, 100);
+	color: white;
+	border-radius: 20px;
+}
+
+.fizzbuzz {
+	background-color: #572700;
+	color: white;
+	text-decoration: underline;
+	border-radius: 20px;
 }
