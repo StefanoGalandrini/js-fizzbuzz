@@ -11,29 +11,39 @@
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.title {
+	max-width: 80vw;
+	margin-inline: auto;
+}
+
 h1 {
 	color: white;
 	font-size: 4rem;
 	text-align: center;
-	margin-bottom: 3rem;
+	padding: 2rem 0 2.5rem;
+	background-color: rgb(70, 0, 116);
+	background: linear-gradient(90deg, rgba(70, 0, 116, 1) 0%, rgba(157, 15, 0, 1) 50%, rgba(70, 0, 116, 1) 100%);
+	margin-bottom: 1.5rem;
 }
 
 main {
 	max-width: 80vw;
+	border: 5px dotted white;
+	padding: 2rem;
 	margin-inline: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 0.5rem;
-	font-size: 1.2rem;
-	font-weight: bold;
 	flex-wrap: wrap;
 }
 
 .all {
-	width: 6rem;
-	height: 6rem;
+	width: 6.5rem;
+	height: 6.5rem;
+	font-size: 1.3rem;
+	font-weight: bold;
 	border: 1px solid white;
 	display: flex;
 	justify-content: center;
