@@ -14,7 +14,7 @@
 */
 
 /*	cicli IF nidificati:
-	TODO semplificare codice */
+	TODO semplificare codice
 
 for (let i = 1; i <= 100; i++) {
 	if (i % 3 === 0 && i % 5 === 0) {
@@ -25,5 +25,23 @@ for (let i = 1; i <= 100; i++) {
 		console.log("buzz");
 	} else {
 		console.log(i);
+	}
+}
+*/
+
+let fizzBuzz = "";
+
+for (let i = 1; i <= 100; i++) {
+	if (i % 3 === 0) {
+		fizzBuzz = "Fizz";
+	}
+	if (i % 5 === 0) {
+		fizzBuzz = fizzBuzz + "Buzz";
+	}
+	if (fizzBuzz === "") {
+		console.log(i);
+	} else {
+		console.log(fizzBuzz);
+		fizzBuzz = "";
 	}
 }
